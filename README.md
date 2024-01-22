@@ -1,6 +1,6 @@
 # Hole extraction algorithm for 3D STL models
 
-This code extracts essential information from a binary STL file related to a 3D model. It identifies existing holes and generates a CSV file containing the center coordinates and radii of the identified holes. Currently
+This code extracts essential information from a binary STL file related to a 3D model. It identifies existing holes and generates a CSV file containing the center coordinates and radius of the identified holes. Both through holes and blind holes are detected and outputted to file. The facet of each hole is defined through a normal vector. Currently, the algorithm is able to detect holes for all cuboid (not only cube) 3D models, which contain holes.  
 
 
 ## Librarys
